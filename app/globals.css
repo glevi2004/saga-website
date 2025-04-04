@@ -35,19 +35,17 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--navy);
-    --foreground: var(--white);
-    --primary: var(--pink);
-    --secondary: var(--purple);
-    --accent: var(--purple);
-    --muted: #1f2937;
-    --muted-foreground: #9ca3af;
-    --card: #1e1e1e;
-    --card-foreground: var(--white);
-    --border: #374151;
-  }
+:root {
+  --background: var(--navy);
+  --foreground: var(--white);
+  --primary: var(--pink);
+  --secondary: var(--purple);
+  --accent: var(--purple);
+  --muted: #1f2937;
+  --muted-foreground: #9ca3af;
+  --card: #1e1e1e;
+  --card-foreground: var(--white);
+  --border: #374151;
 }
 
 body {
