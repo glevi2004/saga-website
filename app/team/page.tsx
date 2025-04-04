@@ -24,13 +24,33 @@ const teamMembers: TeamMember[] = [
     ],
   },
   {
+    name: "Fernando",
+    role: "Financial Analyst",
+    photo: "/team/fernando.jpg",
+    borderColor: "secondary",
+    bio: [
+      "Fernando is a nationally and internationally recognized Brazilian student whose exceptional performance spans debate, astronomy, mathematics, history, and financial education. Ranked 7th among school debaters in Brazil by the Brazilian Debate Institute, he also placed in the top 0.005% of two million participants in the Brazilian Astronomy Olympiad. In mathematics, he earned a Gold Medal at OMEG—being named the best student in Goiás—and a Bronze Medal at OBMEP, ranking in the top 0.001% of 18.3 million students.",
+      "Additionally, he placed in the top 1% in the National Olympiad in Brazilian History and ranked first among 60,000 in the Brazilian Financial Education Olympiad. As Director of the Arena Debate Society, Fernando leads social impact projects, applying his strategic vision to develop initiatives that foster intellectual growth and meet the demands of a dynamic market.",
+    ],
+  },
+  {
+    name: "Isadora Rodrigues",
+    role: "Social Media Manager",
+    photo: "/team/isa.jpg",
+    borderColor: "primary",
+    bio: [
+      "Isadora Rodrigues is a first-year high school student from Catalão, Goiás, Brazil. Passionate about digital communication and content creation, she is part of the “SAGA” group, where she plays a key role in planning and managing social media posts for platforms like Instagram and LinkedIn. ",
+      "With a keen eye for engaging storytelling and strategic content development, Isadora is dedicated to crafting impactful messages that resonate with diverse audiences. Through her work, she continues to refine her skills in digital marketing and social media strategy, contributing to meaningful online engagement.",
+    ],
+  },
+  {
     name: "Elijah Phommachanh",
     role: "Designer and Product Developer",
     photo: "/team/elijah.jpg", // Add your photo path here
     borderColor: "secondary",
     bio: [
       "A student at Boston University, Class of 2028, and a graduate of Lynn English High School. Elijah brings hands-on experience from work as a Tool Inventory Manager and General Laborer at G&S Wood Floor Service. Skilled in CAD design, prototyping, 3D printing, blueprint reading, and sales and persuasion, Elijah is also fluent in Korean.",
-      "His academic achievements include the MCAS Student Achievement Award, Dean's List, and Honor Roll, along with strong AP scores—earning a 5 in U.S. Government and 4s in Statistics, Biology, and English Literature. Committed to community service, Elijah has volunteered at Golden Monkey Cafe, served as a caretaker at the Boys & Girls Club, and supported registration efforts for Innovate@BU.",
+      "Committed to community service, Elijah has volunteered at Golden Monkey Cafe, served as a caretaker at the Boys & Girls Club, and supported registration efforts for Innovate@BU.",
     ],
   },
 ];
