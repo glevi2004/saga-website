@@ -1,11 +1,17 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import {
+  MdCastForEducation,
+  MdHub,
+  MdPeople,
+  MdInsights,
+} from "react-icons/md";
 
 export default function About() {
   return (
     <main className="min-h-screen flex flex-col">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center p-8 mt-16">
+      <section className="min-h-[90vh] flex flex-col items-center justify-center p-8 mt-16">
         <h1 className="text-5xl font-bold text-foreground mb-6 text-center">
           About <span className="text-primary">SAGA</span>
         </h1>
@@ -40,13 +46,8 @@ export default function About() {
                 ready to thrive in all aspects of life.
               </p>
             </div>
-            <div className="bg-muted rounded-xl p-6 relative h-72 md:h-full">
-              {/* Placeholder for image - replace with your actual image */}
-              <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                <p className="text-center">
-                  Image showcasing students, parents, and teachers collaborating
-                </p>
-              </div>
+            <div className="flex justify-center items-center">
+              <MdCastForEducation className="w-64 h-64 text-primary/50 animate-[pulse_6s_ease-in-out_infinite]" />
             </div>
           </div>
         </div>
@@ -161,18 +162,14 @@ export default function About() {
                   and proactive.
                 </p>
               </div>
-              <div className="md:w-1/2 bg-muted rounded-xl p-6 h-48 md:h-64 flex items-center justify-center">
-                <p className="text-center text-muted-foreground">
-                  Platform visualization
-                </p>
+              <div className="md:w-1/2 flex items-center justify-center">
+                <MdHub className="w-48 h-48 text-primary/30 animate-[pulse_6s_ease-in-out_infinite]" />
               </div>
             </div>
 
             <div className="flex flex-col-reverse md:flex-row gap-8 items-center">
-              <div className="md:w-1/2 bg-muted rounded-xl p-6 h-48 md:h-64 flex items-center justify-center">
-                <p className="text-center text-muted-foreground">
-                  SEL components illustration
-                </p>
+              <div className="md:w-1/2 flex items-center justify-center">
+                <MdPeople className="w-48 h-48 text-secondary/30 animate-[pulse_6s_ease-in-out_infinite]" />
               </div>
               <div className="md:w-1/2">
                 <h3 className="text-2xl font-semibold text-foreground mb-4">
@@ -204,10 +201,8 @@ export default function About() {
                   compassionate, informed, and connected educational experience.
                 </p>
               </div>
-              <div className="md:w-1/2 bg-muted rounded-xl p-6 h-48 md:h-64 flex items-center justify-center">
-                <p className="text-center text-muted-foreground">
-                  Data visualization interface
-                </p>
+              <div className="md:w-1/2 flex items-center justify-center">
+                <MdInsights className="w-48 h-48 text-primary/30 animate-[pulse_6s_ease-in-out_infinite]" />
               </div>
             </div>
           </div>
@@ -215,7 +210,7 @@ export default function About() {
       </section>
 
       {/* Call to Action */}
-      <section className="min-h-[50vh] bg-gradient-to-br from-navy to-purple py-16 px-8 flex items-center">
+      <section className="min-h-[100vh] bg-gradient-to-br from-navy to-purple py-16 px-8 flex items-center">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-6">
             Join us in reshaping education

@@ -20,17 +20,17 @@ export default function Contact() {
           Reach out to our team to learn more about our solutions.
         </p>
 
-        <div className="flex flex-col gap-4 w-full max-w-md">
+        <div className="flex flex-col gap-4 w-full max-w-sm">
           <a
-            href="mailto:contact@saga.com"
-            className="group flex items-center justify-center gap-3 border border-white text-white hover:bg-white/10 font-medium px-8 py-4 rounded-xl transition-all duration-300"
+            href="mailto:hpgodoi@bu.edu"
+            className="group flex items-center justify-center gap-3 border border-white text-white hover:bg-white/10 font-medium px-8 py-3 rounded-xl transition-all duration-300"
           >
             <IoMailOutline className="h-6 w-6" />
             <span className="text-lg">Email</span>
           </a>
 
           <a
-            href="tel:+1234567890"
+            href="tel:+5564999851333"
             className="group flex items-center justify-center gap-3 border-2 border-primary text-primary hover:bg-primary/10 font-medium px-8 py-4 rounded-xl transition-all duration-300"
           >
             <FiPhone className="h-6 w-6" />
