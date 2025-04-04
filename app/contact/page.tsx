@@ -7,7 +7,6 @@ import { FiPhone } from "react-icons/fi";
 export default function Contact() {
   return (
     <main className="min-h-screen flex flex-col bg-background">
-      <Navbar />
       <section className="flex flex-col items-center justify-center flex-1 px-4">
         <h1 className="mt-8 text-5xl font-bold text-foreground mb-4 text-center">
           Contact Us

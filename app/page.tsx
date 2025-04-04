@@ -1,11 +1,8 @@
-import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
-      <Navbar />
-
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
         <div className="max-w-4xl mx-auto text-center">
