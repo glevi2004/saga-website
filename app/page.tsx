@@ -8,27 +8,33 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center p-8">
-        <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 text-center">
-          Connecting the <span className="text-primary">Educational</span>{" "}
-          Ecosystem
-        </h1>
-        <p className="text-xl text-muted-foreground max-w-2xl text-center mb-10">
-          Empowering parents, teachers, and students through emotional
-          intelligence and collaborative education.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Link
-            href="/about"
-            className="bg-primary hover:bg-primary/90 text-white font-semibold py-3 px-6 rounded-full transition-colors"
-          >
-            Learn More
-          </Link>
-          <Link
-            href="/contact"
-            className="border border-primary text-primary hover:bg-primary/10 font-semibold py-3 px-6 rounded-full transition-colors"
-          >
-            Contact Us
-          </Link>
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-6xl md:text-7xl font-bold mt-10 mb-6">
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Saga
+            </span>
+          </h1>
+          <p className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            Connecting the Educational Ecosystem
+          </p>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
+            Empowering parents, teachers, and students through emotional
+            intelligence and collaborative education.
+          </p>
+          <div className="flex flex-row gap-4 justify-center items-center">
+            <Link
+              href="/about"
+              className="border-2 border-white text-white hover:bg-white/10 font-semibold py-4 px-8 rounded-full transition-colors"
+            >
+              Learn More
+            </Link>
+            <Link
+              href="/contact"
+              className="border-2 border-primary text-primary hover:bg-primary/10 font-semibold py-4 px-8 rounded-full transition-colors"
+            >
+              Contact Us
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -148,33 +154,12 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center mt-10">
-            <Link
-              href="/what-we-do"
-              className="text-primary hover:text-primary/80 font-medium flex items-center gap-1 transition-colors"
-            >
-              Learn more about our approach
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-          </div>
+          <div className="flex justify-center mt-10"></div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="min-h-[50vh] bg-gradient-to-br from-navy to-purple py-16 px-8 flex items-center">
+      <section className="min-h-[100vh] py-16 px-8 flex items-center">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-6">
             Ready to transform education?
@@ -185,7 +170,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="bg-pink hover:bg-pink/90 text-white font-semibold py-3 px-8 rounded-full transition-colors inline-block"
+            className="border border-primary text-primary hover:bg-primary/10 font-semibold py-3 px-6 rounded-full transition-colors"
           >
             Get Started
           </Link>
